@@ -188,8 +188,9 @@ public class VerifyResponseTask implements Runnable {
             return;
         }
 
+        boolean enabledSkinRestorer = plugin.getConfig().getBoolean("skinsrestorer");
         SkinProperty[] properties = verification.getProperties();
-        if (properties.length > 0) {
+        if (!enabledSkinRestorer && properties.length > 0) {
             session.setSkinProperty(properties[0]);
         }
 
