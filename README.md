@@ -1,5 +1,13 @@
 # FastLogin
 
+## Remark
+
+For [skinsrestorer](https://skinsrestorer.net/) compatibility add this to your `config.yml`:
+
+```yml
+skinsrestorer: true
+```
+
 ![A shield-shaped emblem with a bold lightning bolt on the left, resembling Minecraft blocks. To the right, "FastLogin" is written in teal, with the tagline: "Automatically detect and login premium Minecraft players"](https://github.com/user-attachments/assets/0788ef69-029b-465e-83a2-b8e7bccc6295 "FastLogin project logo.avif")
 
 Checks if a Minecraft player has a paid account (premium). If so, they can skip offline authentication (auth plugins).
